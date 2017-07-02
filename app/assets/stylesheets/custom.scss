@@ -192,3 +192,23 @@ input {
   width: auto;
   margin-left: 0;
 }
+
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    padding-top: 20px;
+    overflow: auto;
+    border-bottom: 1px solid $gray-lighter;
+  }
+  a {
+    color: black;
+  }
+  a:hover {
+    background-color: #E6E6FA;
+    text-decoration: none;
+    border-radius: 20%;
+  }
+}
